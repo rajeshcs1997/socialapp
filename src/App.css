@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.navbar{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: #a4d699;
+  line-height: 77px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +43,28 @@
     transform: rotate(360deg);
   }
 }
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto !important;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;  
+}
+.testfile{
+    background-color: #dcdacb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto !important;
+    font-size: 16px;
+}
+
